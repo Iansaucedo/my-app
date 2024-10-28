@@ -1,0 +1,26 @@
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-form button {
+  align-self: flex-start;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-form button:hover {
+  background-color: #0056b3;
+}
