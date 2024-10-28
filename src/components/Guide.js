@@ -76,6 +76,11 @@ const Guide = () => {
         <li>
           <strong>Función Lineal</strong>: <code>f(x) = 2 * x + 3</code>
         </li>
+
+        <li>
+          <strong>raiz diferente a 2</strong>:{' '}
+          <code>nthRoot(1 - x//operacion, numero de raiz)</code>
+        </li>
         <li>
           <strong>Función Cuadrática</strong>: <code>f(x) = x^2 - 4 * x + 4</code>
         </li>
