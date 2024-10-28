@@ -4,6 +4,7 @@ import Plot from 'react-plotly.js'
 import InputForm from './components/InputForm'
 import ResultsTable from './components/ResultsTable'
 import './App.css'
+import Guide from './components/Guide'
 
 const App = () => {
   const [results, setResults] = useState([])
@@ -372,6 +373,9 @@ const App = () => {
       <InputForm onSubmit={handleFormSubmit} />
       <ResultsTable results={results} tol={tolerance} method={method} />
       <Plot data={graphData} layout={{ title: 'Graph' }} />
+      <div>
+        <Guide />
+      </div>
     </div>
   )
 }

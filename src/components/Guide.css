@@ -1,0 +1,27 @@
+.guide {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.guide h2 {
+  margin-top: 0;
+}
+
+.guide ul,
+.guide ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.guide li {
+  margin-bottom: 10px;
+}
+
+.guide code {
+  background-color: #eee;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
